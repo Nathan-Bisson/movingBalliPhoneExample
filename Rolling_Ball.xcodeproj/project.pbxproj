@@ -14,6 +14,7 @@
 		92AEA7671ABB469700CBA642 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AEA7661ABB469700CBA642 /* Images.xcassets */; };
 		92AEA76A1ABB469700CBA642 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AEA7681ABB469700CBA642 /* LaunchScreen.xib */; };
 		92AEA7761ABB469700CBA642 /* Rolling_BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AEA7751ABB469700CBA642 /* Rolling_BallTests.m */; };
+		92AEA7811ABB4CCD00CBA642 /* BallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AEA7801ABB4CCD00CBA642 /* BallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		92AEA76F1ABB469700CBA642 /* Rolling_BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rolling_BallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AEA7741ABB469700CBA642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92AEA7751ABB469700CBA642 /* Rolling_BallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rolling_BallTests.m; sourceTree = "<group>"; };
+		92AEA77F1ABB4CCD00CBA642 /* BallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallViewController.h; sourceTree = "<group>"; };
+		92AEA7801ABB4CCD00CBA642 /* BallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				92AEA75E1ABB469700CBA642 /* AppDelegate.m */,
 				92AEA7601ABB469700CBA642 /* ViewController.h */,
 				92AEA7611ABB469700CBA642 /* ViewController.m */,
+				92AEA77F1ABB4CCD00CBA642 /* BallViewController.h */,
+				92AEA7801ABB4CCD00CBA642 /* BallViewController.m */,
 				92AEA7631ABB469700CBA642 /* Main.storyboard */,
 				92AEA7661ABB469700CBA642 /* Images.xcassets */,
 				92AEA7681ABB469700CBA642 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AEA7621ABB469700CBA642 /* ViewController.m in Sources */,
+				92AEA7811ABB4CCD00CBA642 /* BallViewController.m in Sources */,
 				92AEA75F1ABB469700CBA642 /* AppDelegate.m in Sources */,
 				92AEA75C1ABB469700CBA642 /* main.m in Sources */,
 			);
@@ -344,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Rolling_Ball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Rolling_Ball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
